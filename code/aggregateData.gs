@@ -5,6 +5,8 @@
 
 This script retrieve data from "data" sheet and aggregate it.
 
+January 2, 2017: removed the aggregation and charts sections & code, since it became obsolete with the release of uCountVis
+
 */
 
 var sheetData = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('data');
